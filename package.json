@@ -1,0 +1,22 @@
+{
+  "name": "fr3k-scalper-lite",
+  "version": "1.0.0",
+  "description": "fr3k-scalper-lite - A simplified crypto scalper for Bybit futures. Get started with algorithmic trading. Upgrade to PRO for full features.",
+  "main": "src/scalper.js",
+  "scripts": {
+    "start": "node src/scalper.js",
+    "test": "node src/scalper.js --test"
+  },
+  "keywords": ["crypto", "trading", "bybit", "scalper", "algorithmic-trading", "fr3k"],
+  "author": "fr3k",
+  "license": "MIT",
+  "homepage": "https://mcpintelligence.com.au",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fr3kchy/fr3k-scalper-lite"
+  },
+  "dependencies": {
+    "ccxt": "^4.3.0",
+    "dotenv": "^16.3.1"
+  }
+}

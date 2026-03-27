@@ -1,0 +1,18 @@
+{
+  "exchange": {
+    "apiKey": "",
+    "apiSecret": "",
+    "testnet": true,
+    "maxLeverage": 10
+  },
+  "trading": {
+    "defaultSizeUsd": 10,
+    "maxOpenTrades": 2,
+    "stopLossAtr": 1.5,
+    "takeProfitAtr": 2.0
+  },
+  "strategies": {
+    "breakout": { "enabled": true, "weight": 1.0 },
+    "trend_follow": { "enabled": true, "weight": 1.0 }
+  }
+}
