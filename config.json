@@ -8,11 +8,31 @@
   "trading": {
     "defaultSizeUsd": 10,
     "maxOpenTrades": 2,
-    "stopLossAtr": 1.5,
-    "takeProfitAtr": 2.0
+    "stopLossAtr": 1.7,
+    "takeProfitAtr": 2.3,
+    "minVolumeUsd24h": 15000000,
+    "maxSpreadBps": 15
+  },
+  "sideAdjustments": {
+    "Sell": {
+      "scoreThresholdOffset": 1.0,
+      "minNetEdgeBpsOffset": 10,
+      "minRsi": 48,
+      "maxRsi": 72
+    }
   },
   "strategies": {
-    "breakout": { "enabled": true, "weight": 1.0 },
-    "trend_follow": { "enabled": true, "weight": 1.0 }
+    "breakout": {
+      "enabled": true,
+      "weight": 1.0
+    },
+    "trend_follow": {
+      "enabled": true,
+      "weight": 1.0
+    },
+    "anti_chop": {
+      "enabled": true,
+      "weight": 0.8
+    }
   }
 }
